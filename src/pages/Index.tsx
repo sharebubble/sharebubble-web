@@ -26,7 +26,8 @@ import {
 } from "@/components/ui/dialog";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { useI18n } from "@/i18n/I18nProvider";
-import heroImage from "@/assets/hero-illustration.jpg";
+import heroImage from "@/assets/magical-bubble.jpg";
+import logoImage from "@/assets/sharebubble-logo.png";
 
 const ComingSoonModal = ({
   isOpen,
@@ -67,11 +68,11 @@ const Hero = ({ onShowComingSoon }: { onShowComingSoon: () => void }) => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-up">
             <div className="inline-flex items-center gap-2 rounded-full bg-accent px-4 py-1.5 text-sm font-medium text-accent-foreground">
-              <RefreshCw className="h-4 w-4" />
+              <img src={logoImage} alt="" className="h-5 w-5" />
               {t.hero.badge}
             </div>
             <h1 className="text-5xl lg:text-6xl xl:text-7xl font-bold leading-[1.1] tracking-tight text-foreground">
-              Share<span className="text-primary">cycle</span>
+              Share<span className="text-primary">bubble</span>
             </h1>
             <p className="text-xl lg:text-2xl font-display italic text-muted-foreground">
               {t.hero.tagline}
@@ -337,9 +338,9 @@ const Footer = () => {
     <footer className="bg-foreground text-background py-12">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="flex items-center gap-2">
-            <RefreshCw className="h-5 w-5" />
-            <span className="font-display text-lg font-bold">Sharecycle</span>
+          <div className="flex items-center gap-3">
+            <img src={logoImage} alt="Sharebubble logo" className="h-8 w-8" />
+            <span className="font-display text-lg font-bold">Sharebubble</span>
           </div>
           <p className="text-sm opacity-60">{t.footer.tagline}</p>
         </div>
