@@ -2,7 +2,7 @@ export const en = {
   lang: "en",
   hero: {
     badge: "Open Source & Decentralized",
-    title: "Sharecycle",
+    title: "Sharebubble",
     tagline: "Ownership is overrated. Access is everything.",
     desc: "The open-source, decentralized platform for sharing goods and services within your real-world community.",
     cta1: "Get Started",
@@ -11,7 +11,7 @@ export const en = {
   },
   ways: {
     title: "One Platform. Five Ways to Connect.",
-    desc: "Why buy new when your neighbor has exactly what you need? Sharecycle turns your local area into a living library of resources.",
+    desc: "Why buy new when your neighbor has exactly what you need? Sharebubble turns your local area into a living library of resources.",
     sell: { title: "Sell", desc: "Pass on what you no longer need." },
     rent: {
       title: "Rent",
@@ -48,7 +48,7 @@ export const en = {
   },
   fediverse: {
     title: "The Power of the Fediverse",
-    desc: 'Sharecycle isn\'t another "walled garden" app. We play well with others.',
+    desc: 'Sharebubble isn\'t another "walled garden" app. We play well with others.',
     activitypub: {
       title: "ActivityPub Integration",
       desc: "As part of the Fediverse, your local instance can talk to others. Follow listings and interact across the decentralized web.",
@@ -64,11 +64,11 @@ export const en = {
   },
   support: {
     title: "Support the Circular Revolution",
-    desc: "Sharecycle is AGPL-licensed and community-funded. No venture capital, just community value.",
+    desc: "Sharebubble is AGPL-licensed and community-funded. No venture capital, just community value.",
     communities: {
       label: "For Communities",
       title: "Request a Hosted Instance",
-      desc: "Want to start a Sharecycle hub for your neighborhood, hobbyist club, or town? We'll handle the hosting, security, and updates so you can focus on building your community.",
+      desc: "Want to start a Sharebubble hub for your neighborhood, hobbyist club, or town? We'll handle the hosting, security, and updates so you can focus on building your community.",
       cta: "Get Started",
     },
     individuals: {
@@ -79,9 +79,9 @@ export const en = {
     },
   },
   quote:
-    "\"Sharecycle isn't just an app; it's a handshake in digital form. It's about knowing your neighbor and keeping resources within the community loop.\"",
+    "\"Sharebubble isn't just an app; it's a handshake in digital form. It's about knowing your neighbor and keeping resources within the community bubble.\"",
   cta: {
-    title: "Ready to close the loop?",
+    title: "Ready to pop your bubble open?",
     demo: "Explore the Demo",
     fediverse: "Join the Fediverse",
     license: "Get Your Supporter License",

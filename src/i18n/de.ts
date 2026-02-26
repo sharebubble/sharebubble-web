@@ -4,7 +4,7 @@ export const de: Translations = {
   lang: "de",
   hero: {
     badge: "Open Source & Dezentral",
-    title: "Sharecycle",
+    title: "Sharebubble",
     tagline: "Besitz ist überbewertet. Zugang ist alles.",
     desc: "Die quelloffene, dezentrale Plattform zum Teilen von Gütern und Dienstleistungen in deiner realen Nachbarschaft.",
     cta1: "Loslegen",
@@ -13,7 +13,7 @@ export const de: Translations = {
   },
   ways: {
     title: "Eine Plattform. Fünf Wege zur Vernetzung.",
-    desc: "Warum neu kaufen, wenn dein Nachbar genau das hat, was du brauchst? Sharecycle verwandelt deine Umgebung in eine lebendige Bibliothek der Ressourcen.",
+    desc: "Warum neu kaufen, wenn dein Nachbar genau das hat, was du brauchst? Sharebubble verwandelt deine Umgebung in eine lebendige Bibliothek der Ressourcen.",
     sell: {
       title: "Verkaufen",
       desc: "Gib weiter, was du nicht mehr brauchst.",
@@ -53,7 +53,7 @@ export const de: Translations = {
   },
   fediverse: {
     title: "Die Kraft des Fediverse",
-    desc: "Sharecycle ist keine weitere \u201EWalled Garden\u201C-App. Wir spielen gut mit anderen zusammen.",
+    desc: "Sharebubble ist keine weitere \u201EWalled Garden\u201C-App. Wir spielen gut mit anderen zusammen.",
     activitypub: {
       title: "ActivityPub-Integration",
       desc: "Als Teil des Fediverse kann deine lokale Instanz mit anderen kommunizieren. Folge Angeboten und interagiere über das dezentrale Web.",
@@ -69,11 +69,11 @@ export const de: Translations = {
   },
   support: {
     title: "Unterstütze die Kreislauf-Revolution",
-    desc: "Sharecycle ist AGPL-lizenziert und von der Community finanziert. Kein Risikokapital, nur Gemeinschaftswert.",
+    desc: "Sharebubble ist AGPL-lizenziert und von der Community finanziert. Kein Risikokapital, nur Gemeinschaftswert.",
     communities: {
       label: "Für Gemeinschaften",
       title: "Gehostete Instanz anfragen",
-      desc: "Du möchtest einen Sharecycle-Hub für deine Nachbarschaft, deinen Verein oder deine Stadt starten? Wir kümmern uns um Hosting, Sicherheit und Updates, damit du dich auf den Aufbau deiner Community konzentrieren kannst.",
+      desc: "Du möchtest einen Sharebubble-Hub für deine Nachbarschaft, deinen Verein oder deine Stadt starten? Wir kümmern uns um Hosting, Sicherheit und Updates, damit du dich auf den Aufbau deiner Community konzentrieren kannst.",
       cta: "Loslegen",
     },
     individuals: {
@@ -84,9 +84,9 @@ export const de: Translations = {
     },
   },
   quote:
-    "\u201ESharecycle ist nicht nur eine App; es ist ein Handschlag in digitaler Form. Es geht darum, seinen Nachbarn zu kennen und Ressourcen im Kreislauf der Gemeinschaft zu halten.\u201C",
+    "\u201ESharebubble ist nicht nur eine App; es ist ein Handschlag in digitaler Form. Es geht darum, seinen Nachbarn zu kennen und Ressourcen in der Gemeinschafts-Blase zu halten.\u201C",
   cta: {
-    title: "Bereit, den Kreislauf zu schließen?",
+    title: "Bereit, deine Blase zu öffnen?",
     demo: "Demo entdecken",
     fediverse: "Dem Fediverse beitreten",
     license: "Supporter-Lizenz holen",
