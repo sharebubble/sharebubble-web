@@ -80,6 +80,15 @@ export const en = {
   },
   quote:
     "\"Sharebubble isn't just an app; it's a handshake in digital form. It's about knowing your neighbor and keeping resources within the community bubble.\"",
+  demoBanner: {
+    title: "Try the Live Demo",
+    desc: "See Sharebubble in action — no sign-up required.",
+    cta: "Open Demo",
+    usersLabel: "Users:",
+    users: ["alice", "bob", "chris", "demo"],
+    passwordLabel: "Password:",
+    password: "demodemo",
+  },
   cta: {
     title: "Ready to pop your bubble open?",
     demo: "Explore the Demo",

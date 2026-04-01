@@ -14,6 +14,7 @@ import {
   MessageCircle,
   Heart,
   ArrowRight,
+  FlaskConical,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -81,22 +82,12 @@ const Hero = ({ onShowComingSoon }: { onShowComingSoon: () => void }) => {
               {t.hero.desc}
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button variant="hero" size="lg" onClick={onShowComingSoon}>
-                {t.hero.cta1}
-              </Button>
-              <Button
-                variant="hero-outline"
-                size="lg"
-                onClick={onShowComingSoon}
-              >
-                {t.hero.cta2}
-              </Button>
               <a
                 href="https://github.com/sharebubble/bubble/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button variant="ghost" size="lg" className="gap-2">
+                <Button variant="hero-outline" size="lg" className="gap-2">
                   {t.hero.cta3} <ArrowRight className="h-4 w-4" />
                 </Button>
               </a>
@@ -114,6 +105,68 @@ const Hero = ({ onShowComingSoon }: { onShowComingSoon: () => void }) => {
               />
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+const DemoBanner = () => {
+  const { t } = useI18n();
+  return (
+    <section className="bg-amber/15 border-y border-amber/30 py-8">
+      <div className="container mx-auto px-6">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6 max-w-4xl mx-auto">
+          <div className="flex items-start gap-4">
+            <FlaskConical className="h-8 w-8 text-amber shrink-0 mt-0.5" />
+            <div>
+              <h3 className="text-lg font-bold text-foreground">
+                {t.demoBanner.title}
+              </h3>
+              <p className="text-muted-foreground text-sm mt-0.5">
+                {t.demoBanner.desc}
+              </p>
+              <div className="text-sm mt-2 space-y-1">
+                <p>
+                  <span className="font-semibold text-foreground">
+                    {t.demoBanner.usersLabel}
+                  </span>{" "}
+                  {t.demoBanner.users.map((u, i) => (
+                    <span key={u}>
+                      <code className="rounded bg-amber/20 px-1 py-0.5 font-mono text-xs text-foreground">
+                        {u}
+                      </code>
+                      {i < t.demoBanner.users.length - 1 && (
+                        <span className="text-muted-foreground"> · </span>
+                      )}
+                    </span>
+                  ))}
+                </p>
+                <p>
+                  <span className="font-semibold text-foreground">
+                    {t.demoBanner.passwordLabel}
+                  </span>{" "}
+                  <code className="rounded bg-amber/20 px-1 py-0.5 font-mono text-xs text-foreground">
+                    {t.demoBanner.password}
+                  </code>
+                </p>
+              </div>
+            </div>
+          </div>
+          <a
+            href="https://demo.sharebubble.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="shrink-0"
+          >
+            <Button
+              variant="hero"
+              size="lg"
+              className="gap-2 whitespace-nowrap"
+            >
+              {t.demoBanner.cta} <ArrowRight className="h-4 w-4" />
+            </Button>
+          </a>
         </div>
       </div>
     </section>
@@ -305,14 +358,6 @@ const CTA = ({ onShowComingSoon }: { onShowComingSoon: () => void }) => {
         </h2>
         <div className="flex flex-wrap justify-center gap-4">
           <Button
-            variant="secondary"
-            size="lg"
-            className="font-semibold"
-            onClick={onShowComingSoon}
-          >
-            {t.cta.demo}
-          </Button>
-          <Button
             size="lg"
             className="bg-forest text-forest-foreground hover:bg-forest/90 font-semibold"
             onClick={onShowComingSoon}
@@ -360,6 +405,7 @@ const Index = () => {
         <LanguageSwitcher />
       </div>
       <Hero onShowComingSoon={showComingSoon} />
+      <DemoBanner />
       <FiveWays />
       <Trust />
       <Fediverse />

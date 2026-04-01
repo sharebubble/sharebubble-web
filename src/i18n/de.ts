@@ -85,6 +85,15 @@ export const de: Translations = {
   },
   quote:
     "\u201ESharebubble ist nicht nur eine App; es ist ein Handschlag in digitaler Form. Es geht darum, seinen Nachbarn zu kennen und Ressourcen in der Gemeinschafts-Bubble zu halten.\u201C",
+  demoBanner: {
+    title: "Live-Demo ausprobieren",
+    desc: "Sharebubble in Aktion erleben – keine Registrierung erforderlich.",
+    cta: "Demo öffnen",
+    usersLabel: "Benutzer:",
+    users: ["alice", "bob", "chris", "demo"],
+    passwordLabel: "Passwort:",
+    password: "demodemo",
+  },
   cta: {
     title: "Bereit, eure Bubble zu eröffnen?",
     demo: "Demo entdecken",
