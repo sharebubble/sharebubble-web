@@ -92,7 +92,7 @@ const Hero = ({ onShowComingSoon }: { onShowComingSoon: () => void }) => {
                 {t.hero.cta2}
               </Button>
               <a
-                href="https://github.com/treibhausdonaufeld/bubble/"
+                href="https://github.com/sharebubble/bubble/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

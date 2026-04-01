@@ -9,7 +9,7 @@ const LanguageSwitcher = () => {
   return (
     <div className="inline-flex items-center gap-1 rounded-full bg-card border border-border px-2 py-1 shadow-md">
       <a
-        href="https://github.com/treibhausdonaufeld/bubble/"
+        href="https://github.com/sharebubble/bubble/"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center justify-center rounded-full p-2 text-foreground hover:bg-accent transition-colors"
